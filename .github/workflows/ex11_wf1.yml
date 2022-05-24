@@ -5,7 +5,7 @@ jobs:
       - run: |
           echo This job does not specify a container.
           echo It runs directly on the virtual machine.
-        name: Run on VM
+        name: VM
   container:
     runs-on: ubuntu-latest
     container: node:10.16-jessie
