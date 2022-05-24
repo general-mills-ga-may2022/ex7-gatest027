@@ -17,6 +17,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   example-job:
     name: Save output
+    runs-on: ubuntu-latest
     steps:
       - shell: bash
         run: |
